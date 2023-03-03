@@ -1,0 +1,41 @@
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightskyblue;
+    background-image: url(./images/shogun.png);
+}
+
+.bg-image {
+    width: 877px ;
+    height: 808px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 900px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.bg-position {
+    
+    /* background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 900px; */
+
+    background: black url(./images/shogun.png) no-repeat right bottom;
+    height: 900px;
+}
